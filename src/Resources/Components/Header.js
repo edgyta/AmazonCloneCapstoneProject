@@ -32,11 +32,11 @@ const useStyles = makeStyles({
 icon: {
   marginRight: '0.1rem',
   display: 'inline-block',
-  verticalAlign: 'middle', // Align the icon vertically in the middle
+  verticalAlign: 'middle', 
 },
   text: {
     fontSize: '0.7rem',
-    lineHeight: '1rem',  // Adjusted line height
+    lineHeight: '1rem',  
     cursor: 'pointer',
     color: '#CCCCCC',
   },
@@ -44,8 +44,8 @@ icon: {
   fontSize: '0.9rem',
   fontWeight: 500,
   cursor: 'pointer',
-  display: 'inline-block', // Display the text inline
-  marginLeft: '0.2rem', // Add some margin between the icon and text
+  display: 'inline-block', 
+  marginLeft: '0.2rem', 
 },
   search: {
     display: 'flex',
