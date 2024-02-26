@@ -16,14 +16,14 @@ const useStyles = makeStyles({
     justifyContent: 'space-between',
     alignItems: 'flex-start',
     height: '100vh',
-    backgroundColor: '#F0F0F0', // Light gray background
+    backgroundColor: '#F0F0F0', 
     padding: '2rem 2rem 0rem 2rem',
   },
   link:{
     textDecoration: 'none',
   },
   confirmationContainer: {
-    flex: '0 0 auto', // Don't grow, don't shrink
+    flex: '0 0 auto', 
     width: '60%',
     padding: '1rem',
   },
@@ -56,7 +56,7 @@ const useStyles = makeStyles({
     marginRight: '0.5rem',
   },
   cartInfoContainer: {
-    flex: '0 0 auto', // Don't grow, don't shrink
+    flex: '0 0 auto', 
     width: '35%',
     marginLeft: '2rem',
   },
@@ -65,7 +65,7 @@ const useStyles = makeStyles({
     flexDirection: 'column',
     alignItems: 'center',
     padding: '1rem',
-    backgroundColor: 'white', // White background for this container
+    backgroundColor: 'white', 
     borderRadius: '0.5rem',
   },
   cartTotal: {
