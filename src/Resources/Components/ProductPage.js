@@ -18,14 +18,14 @@ import ProductConfirmation from './ProductConfirm';
 import { addNewProductToCart, updateProduct } from '../Reducers/CartItemsReducer';
 import { useSelector } from 'react-redux';
 const renderStars = (rating) => {
-  const roundedRating = Math.round(rating * 2) / 2; // Round to the nearest 0.5
+  const roundedRating = Math.round(rating * 2) / 2; 
   const stars = [];
 
   for (let i = 1; i <= 5; i++) {
     if (i <= roundedRating) {
       stars.push(<span key={i}>⭐</span>);
     } else {
-      stars.push(<span key={i}></span>); // Empty star
+      stars.push(<span key={i}></span>); 
     }
   }
 
